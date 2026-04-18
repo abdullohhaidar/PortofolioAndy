@@ -33,19 +33,16 @@ const Profile = () => {
           <h2
             className={`text-2xl xxs:text-3xl sm:text-4xl lg:text-[38px] text-[min(24px,38px)] max-md:text-center font-semibold mb-8`}
           >
-            I am Professional User Experience Designer
+            Saya Seorang Guru Profesional PJOK
           </h2>
           <div
             className={`text-xs xs:text-[16px] lg:text-lg font-normal max-md:text-center text-gray-600`}
           >
             <p className={``}>
-              I design and develop services for customers specializing creating
-              stylish, modern websites, web services and online stores. My
-              passion is to design digital user experiences.
+              Saat ini, saya sedang menempuh Program Pendidikan Profesi Guru (PPG) di Universitas PGRI Adi Buana Surabaya untuk mengembangkan kompetensi sebagai calon pendidik yang berkualitas.
             </p>
             <p className="mt-3">
-              I design and develop services for customers specializing creating
-              stylish, modern websites, web services.
+              Saya berkomitmen untuk terus belajar, beradaptasi, dan berkontribusi dalam dunia pendidikan, khususnya melalui pembelajaran pendidikan jasmani yang efektif, inovatif, serta berorientasi pada pembentukan peserta didik yang aktif dan berkarakter.
             </p>
           </div>
           <div className="mt-8 flex max-md:justify-center">

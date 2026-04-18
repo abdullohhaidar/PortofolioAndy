@@ -6,18 +6,18 @@ import InformationSummary from "./InformationSummary";
 const informationSummaryData = [
   {
     id: 1,
-    title: "Experience",
-    description: "3 Years",
+    title: "4 tahun",
+    description: "  S1 PKO  ",
   },
   {
     id: 2,
-    title: "Projects Completed",
-    description: "250+",
+    title: " 1 semester",
+    description: "  Magang  ",
   },
   {
     id: 3,
-    title: "Happy Clients",
-    description: "58",
+    title: "1 semester",
+    description: " PPL ",
   },
 ];
 
@@ -29,23 +29,21 @@ const Introduction = () => {
     >
       <div className="w-full flex flex-col justify-between max-lg:text-center">
         <div className="pt-13 me-31.5 w-full lg:w-auto transition-all duration-500">
-          <p className="text-3xl xxs:text-4xl sm:max-xl:text-5xl xl:text-6xl font-semibold w-full">
+          <p className="text-xl sm:text-2xl xl:text-3xl block">
             Hallo, Saya
-            <span className="text-nowrap shrink-0 inline-block w-full">
-              Andy Winata
+            <span className="text-nowrap shrink-0 inline-block w-full lg:text-[40px]">
+              Muhammad Andy Winata
             </span>
           </p>
           <p className="text-xs xxs:text-lg lg:text-[18px] my-6">
-            Saya adalah seorang  Pengembang Website 
-            dan Mobile Apps. dengan gelar Sarjana Terapan (D4) Teknik Informatika dari Politeknik Negeri Jember (IPK 3,74) 
-            dengan spesialisasi sebagai Backend Developer berpengalaman dalam PHP, Laravel, JavaScript, Flutter, dan Kotlin, serta terbiasa mengelola database dari relasi hingga migrasi.
+            Saya merupakan lulusan Program Sarjana (S1) Pendidikan Kepelatihan Olahraga (PKO) Universitas Negeri Surabaya dengan Indeks Prestasi Kumulatif (IPK) 3,84 dan lulus pada tahun 2025. Selama menempuh pendidikan, saya memiliki minat dan komitmen yang kuat dalam bidang pendidikan jasmani, kepelatihan olahraga, serta pengembangan kondisi fisik.
           </p>
           <p className="text-center lg:text-start">
             <a
               className="btn-primary btn btn-xs xxs:btn-lg text-white"
-              href="mailto:example@gmail.com"
+              href="https://wa.me/6281392237936"
             >
-              Say Hello!
+             Hubungi Saya
             </a>
           </p>
         </div>
@@ -58,7 +56,7 @@ const Introduction = () => {
         </div>
       </div>
       <div
-        className={`max-w-134 w-full h-full max-lg:mx-auto aspect-[536/636] relative`}
+        className={`max-w-124 w-full h-full max-lg:mx-auto aspect-[536/636] relative`}
       >
         <img
           className={`shadow-2xl shadow-gray-200 w-full h-full absolute bottom-0 object-cover bg-white rounded-3xl`}

@@ -11,7 +11,7 @@ const addressData = [
   {
     icon: faLocationDot,
     title: "Address",
-    description: "New Mexico, 31134",
+    description: "Perumahan Bluru Permai Blok FP 16, Sidoarjo",
   },
   {
     icon: faEnvelope,

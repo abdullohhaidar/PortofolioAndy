@@ -3,7 +3,7 @@ const InformationSummary = ({ item }) => {
     <div className={`bg-soft-white text-center`}>
       <div className="w-auto h-auto mx-2 sm:mx-4 my-5 xxs:my-5 sm:my-[17px]">
         <p
-          className={`text-[16px] xxs:text-[18px] sm:text-[32px] font-semibold text-gray-700`}
+          className={`text-[16px] xxs:text-[18px] sm:text-[24px] font-semibold text-gray-700`}
         >
           {item.description}
         </p>
