@@ -35,7 +35,7 @@ const Introduction = () => {
               Muhammad Andy Winata
             </span>
           </p>
-          <p className="text-xs xxs:text-lg lg:text-[18px] my-6">
+          <p className="text-xs xxs:text-lg lg:text-[18px] my-6 text-justify leading-relaxed indent-8">
             Saya merupakan lulusan Program Sarjana (S1) Pendidikan Kepelatihan Olahraga (PKO) Universitas Negeri Surabaya dengan Indeks Prestasi Kumulatif (IPK) 3,84 dan lulus pada tahun 2025. Selama menempuh pendidikan, saya memiliki minat dan komitmen yang kuat dalam bidang pendidikan jasmani, kepelatihan olahraga, serta pengembangan kondisi fisik.
           </p>
           <p className="text-center lg:text-start">
@@ -65,7 +65,11 @@ const Introduction = () => {
         />
       </div>
     </div>
+
+    
+    
   );
 };
+
 
 export default Introduction;

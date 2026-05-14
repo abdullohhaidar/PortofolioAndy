@@ -7,18 +7,12 @@ const Projects = ({ data }) => {
       <img src={data?.image} alt={`${data?.title} image`} />
       <div className="p-4 xs:p-8">
         <p className="text-gray-400 text-xs font-medium">{data?.category}</p>
-        <p className="text-gray-900 text-md xxs:text-lg font-semibold pt-1 mb-3">
+        <p className="text-gray-900 text-md xxs:text-lg font-semibold pt-1">
           {data?.title}
-        </p>
-        <p
-          style={{ lineHeight: "20px", letterSpacing: "0%" }}
-          className="text-gray-600 text-xs xxs:text-[14px] text-wrap"
-        >
-          {data?.description}
         </p>
         <a
           href={data?.link}
-          className="btn hover:border-picto-primary hover:text-picto-primary bg-white text-sm xs:text-[16px] font-semibold hover:gap-3 xs:hover:gap-4 transition-all duration-300 mt-5 xs:py-5.75 px-6 max-sm:w-full"
+          className="btn hover:border-picto-primary hover:text-picto-primary bg-white text-sm xs:text-[12px] font-semibold hover:gap-3 xs:hover:gap-4 transition-all duration-300 mt-2 xs:py-5.75 px-5 max-sm:w-full"
         >
           Case Study
           <span className="ms-1 xs:ms-3">

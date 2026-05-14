@@ -36,7 +36,7 @@ const Profile = () => {
             Saya Seorang Guru Profesional PJOK
           </h2>
           <div
-            className={`text-xs xs:text-[16px] lg:text-lg font-normal max-md:text-center text-gray-600`}
+            className={`text-xs xs:text-[16px] lg:text-lg font-normal max-md:text-center text-gray-600  text-justify leading-relaxed`}
           >
             <p className={``}>
               Saat ini, saya sedang menempuh Program Pendidikan Profesi Guru (PPG) di Universitas PGRI Adi Buana Surabaya untuk mengembangkan kompetensi sebagai calon pendidik yang berkualitas.
